@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-IMAGE="ghcr.io/fastlane-labs/fastlane-sidecar"
+IMAGE="ghcr.io/fastlane-labs/fastlane-sidecar:latest-main"
 DEFAULT_CONTAINER_NAME="monad-execution"
 USER_PROVIDED_NAME="${1:-}"
 
